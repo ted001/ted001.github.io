@@ -115,7 +115,67 @@
     <!------------------------ MAIN ------------------------>
     <main class="main">
       <!------------------------ HOME ------------------------>
-      <section class="home section" id="home"></section>
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/zhiyijin/"
+                target="_blank"
+                class="home__social-icon"
+                id="myLinkedIn"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <a
+                href="https://github.com/ted001"
+                target="_blank"
+                class="home__social-icon"
+                id="myGithub"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+
+              <a
+                href="https://twitter.com/victoryjzy"
+                target="_blank"
+                class="home__social-icon"
+                id="myTwitter"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__data">
+            <small class="home__welcome s-color">
+              Welcome to my Personal Website!
+            </small>
+            <h1 class="home__title">Hey I'm</h1>
+            <div id="typewriter"></div>
+            <h3 class="home__subtitle" id="home-bio">
+                I am now a graduate student in Northeastern University,
+                pursuing the master’s degree of Computer science.
+                For the past eight years, I have worked as an software and system engineer
+                in the automotive industry.
+                And currently I am looking forward to restarting my career as SDE for
+                2023 summer internship.
+            </h3>
+            <a href="#contact" class="button button--flex">
+              Contact Me <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <!-- <span class="home__scroll-name"> Scroll Down </span>
+                <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+          </a>
+        </div>
+      </section>
       <!------------------------ ABOUT ME ------------------------>
       <section class="about section" id="about"></section>
       <!------------------------ QUALIFICATIONS(Skills and Experience)--->
@@ -140,6 +200,9 @@
 
     <!-- Argon JS -->
     <script src="js/argon-design-system.js"></script>
+
+    <!--  Typewriter CSS Effect -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <!-- Self Script -->
     <script src="js/script.js"></script>

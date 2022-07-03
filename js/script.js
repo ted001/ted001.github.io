@@ -48,9 +48,6 @@ if(navClose){
         navMenu.classList.remove('show-menu')
     })
 } 
-
-
-
 console.log("MENU Y SETTING WORKING!")
 //===================================== REMOVE MENU PRORFILE =========================
 const navLink = document.querySelectorAll('.nav__link')
@@ -63,3 +60,14 @@ function linkAction(){
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
 console.log("Remove menu profile is working!")
+
+//===================================== Typewriter Effect =========================
+
+
+new Typewriter('#typewriter', {
+    strings: ['Zhiyi Jin', 'Software Engineer', 'Android Developer', 'Web Developer', 'Lifelong Learner', ''],
+    autoStart: true,
+    loop: true,
+    cursor: "|"
+  });
+  console.log("Typewriter effect is working!")
